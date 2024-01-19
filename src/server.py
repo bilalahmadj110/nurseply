@@ -1,5 +1,6 @@
 from flask import Flask
-from flask.ext.cors import CORS
+from flask_cors import CORS, cross_origin
+
 
 import config
 from model.abc import db
